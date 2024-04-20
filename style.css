@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(fonts/AudiType-Normal_03.ttf);
+    font-family: auditype;
+}
+@font-face {
+    src: url(fonts/AudiType-ExtendedBold_4.03.otf);
+    font-family: audiextented;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 515vh;
+    background-color: aqua;
+
+}
+.headerContainer{
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerMenuContainer{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerlineimgContainer{
+    width: 41px;
+    height: 42px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.headerlineimgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.sidebar{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: white;
+    position: fixed;
+    flex-wrap: wrap;
+
+}
+.sidebar ul{
+    list-style-type: none;
+    margin-top: -43px;
+
+}
+.sidebar li{
+    font-family: auditype;
+    font-size: 17px;
+    margin-top: 4px;
+    margin-left: 65px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.657);
+
+
+}
+.sidebar li:hover{
+   color: black;
+
+}
+.sidebar span{
+    margin-left: 1110px
+}
+
+
+.headerMenuContainer p{
+    font-family: auditype;
+}
+.headerrightContainer{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerrightContainer img{
+    width: 10%;
+    margin-left: 21px;
+
+}
+.headerlineimgContainer1 img{
+    width: 100%;
+
+
+
+
+}
+.headerinnerMenuContainer{
+    width: 100%;
+    display: flex;
+    height: 13vh;
+
+
+}
+.headerlineimgContainer1{
+    width: 41px;
+    height: 42px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.headerMenuContainer1{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    
+}
+.headerMenuContainer1 p{
+    font-family: auditype;
+}
+
+.headerRighttside{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+
+}
+.serchImg{
+    width: 41px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 21px;
+}
+
+.serchImg img{
+width: 70%;
+}
+
+.introMainContainer{
+    width: 100%;
+    height: 92vh;
+    background-image: url(assests/introimage.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 195px rgba(0, 0, 0, 0.898);
+  position: absolute;
+  content: "";
+}
+.introContainer{
+    width: 550px;
+    height: 310px;
+    margin-top: 56px;
+    margin-left: 50px;
+}
+.introTitles{
+    width: 100%;
+    height: 54%;
+    font-family: audiextented;
+    color: #ffffff;
+    font-size: 21px;
+}
+.introbtns{
+    width: 100%;
+    height: 34%;
+    font-family: audiextented;
+    color: white;
+    font-size: 13px;
+    display: flex;
+}
+.introTitles p{
+    font-family: audiextented;
+    font-size: 17px;
+    margin-top: 11px;
+    font-weight: 100;
+    
+}
+
+.introbtn1{
+    width: 45%;
+    height: 10vh;
+    background: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.introbtn2{
+    width: 62%;
+    height: 10vh;
+    margin-left: 6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
+
+.introbtn1:hover{
+    background-color: rgba(255, 255, 255, 0.633);
+}
+.introbtn2:hover{
+    color: rgba(255, 255, 255, 0.633);
+    border: 1px solid rgba(255, 255, 255, 0.633);
+
+
+}
