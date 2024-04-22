@@ -675,6 +675,8 @@ border: 1px solid white;
     width: 32%;
     height: 100%;
     margin-left: 12px;
+    cursor: pointer;
+
 }
 
 .Testdriveimg{
@@ -719,6 +721,7 @@ border: 1px solid white;
     height: 85%;
     margin-left: 2px;
     margin-top: 41px;
+    cursor: pointer;
     color: white;
 
 }
@@ -743,6 +746,7 @@ border: 1px solid white;
     font-family: auditype;
     margin-top: 11px;
     color: white;
+    cursor: pointer;
     margin-left: 23px;
     
 }
@@ -766,12 +770,14 @@ border: 1px solid white;
     height: 100%;
     margin-left: 2px;
     color: white;
+    cursor: pointer;
 }
 .ft2 h6{
     font-size: 17px;
     font-family: auditype;
     margin-top: 3px;
     font-weight: 100;
+    
 }
 .ft2 p{
     font-size: 12px;
@@ -822,6 +828,7 @@ border: 1px solid white;
     height: 8vh;
     display: flex;
     align-items: center;
+
     }
 
 .copywrite p {
@@ -830,11 +837,13 @@ border: 1px solid white;
     color: white;
     font-family: auditype;
     font-weight: 100; 
+    cursor: pointer;
 }
 .copywritep{
     width: 94%;
     height: 38vh;
     color: white;
+
 }
 .copywritep p{
 font-family: auditype;
