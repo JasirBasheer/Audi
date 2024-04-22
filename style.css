@@ -14,10 +14,14 @@
     font-family: audiextented;
 }
 
+::selection {
+    background-color: #F50537; 
+    color: rgb(255, 255, 255); 
+}
+
 .mainContainer{
     width: 100%;
-    height: 515vh;
-    background-color: aqua;
+    height: 1195vh;
 
 }
 .headerContainer{
@@ -49,6 +53,7 @@
     display: none;
     background-color: white;
     position: fixed;
+    z-index: 1;
     flex-wrap: wrap;
 
 }
@@ -147,9 +152,10 @@ width: 70%;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    box-shadow: inset 0px 0px 195px rgba(0, 0, 0, 0.898);
+    box-shadow: inset 0px 45px 545px rgba(0, 0, 0, 0.898);
   position: absolute;
   content: "";
+  z-index: 0;
 }
 .introContainer{
     width: 550px;
@@ -211,4 +217,632 @@ width: 70%;
     border: 1px solid rgba(255, 255, 255, 0.633);
 
 
+}
+
+.modelsMainContainer{
+    width: 100%;
+    height: 31vh;
+    margin-top: 507px;
+
+}
+.modelsTitle{
+    width: 100%;
+    display: flex;
+    height: 7vh;
+  
+}
+.modelsTitle p{
+    border-bottom: 1px solid black;
+    display: inline;
+    font-family: auditype;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 45px;
+
+}
+
+.dispModelsMainContainer{
+    width: 100%;
+    height: 23vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dispModelsContainer {
+    width: 93%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+ .car1 {
+    min-width: 235px;
+    height: 100%;
+    line-height: 100%;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.car1 img{
+    width: 95%;
+    transition: all 0.3s ;
+
+
+}
+.car1 p{
+margin-left: 95px;
+color: rgba(0, 0, 0, 0.681);
+transition: all 0.3s ;
+font-size: 15px;
+font-family: auditype;
+
+}
+.car1:hover  img {
+    transform: scale(1.1);
+    transition: all 0.3s ;
+
+
+}
+.car1:hover  p {
+    transition: all 0.3s ;
+    text-decoration: underline;
+    color: black;
+
+
+}
+
+
+.dispModelsContainer::-webkit-scrollbar {
+    display: none;
+}
+.btnRight{
+    width: 51px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+.btnRightsyle{
+    margin-top: 44px;
+    cursor: pointer;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.748);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.btnLine{
+    width: 0.4px;
+    height: 100%;
+    background-color: black;
+}
+
+.btnleft{
+    width: 51px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+.btnLeftsyle{
+    margin-top: 44px;
+    cursor: pointer;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.748);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.VirtualShowroomContainer
+{
+    width: 100%;
+    height: 111vh;
+    margin-top: 81px;
+    display: flex;
+}
+.VirtualShowroomImg{
+    width: 45%;
+    height: 100%;
+    margin-left: 47px;
+}
+
+.VirtualShowroomImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.VirtualShowroomContant{
+    width: 44%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.VirtualShowroomContant1{
+    width: 80%;
+    height: 30%;
+    margin-left: 41px;
+}
+.VirtualShowroomContant1 h2{
+    font-family: audiextented;
+    font-size: 28px;
+
+}
+
+.VirtualShowroomBtn{
+    width: 231px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 14px;
+    cursor: pointer;
+    font-family: auditype;
+}
+
+.HomeOfMinElectricContainer{
+    margin-top: 51px;
+    height: 173vh;
+    width: 100%;
+    background-image: url(assests/E-tronHub-3840X40002.jpg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.TheHomeOfElectric{
+    width: 49%;
+    height: 28%;
+    background-color: white;
+    margin-left: 51px;
+    font-family: auditype;
+}
+.TheHomeOfElectric h1{
+margin-top: 22px;
+margin-left: 22px;
+
+
+}
+.TheHomeOfElectric p{
+margin-top: 22px;
+margin-left: 22px;
+
+
+}
+
+.homeofp{
+    width: 90%;
+}
+.btns{
+    width: 90%;
+    height: 11vh;
+    display: flex;
+}
+.btn1{
+    width: 35%;
+    height: 100%;
+    background-color: #000000;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 21px;
+    margin-top: 11px;
+    font-family: auditype;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #00000095;
+}
+.btn2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+    font-family: auditype;
+    cursor: pointer;
+
+}
+.augmentedReality{
+    width: 100%;
+    height: 111vh;
+    margin-top: 201px;
+    display: flex;
+}
+
+.augmentedRealityLeft{
+    width: 50%;
+    height: 105vh;
+    margin-left: 51px;
+}
+.augmentedRealityRightContainer{
+    width: 45%;
+    height: 105vh;
+    display: flex;
+    align-items: center;
+}
+
+.augmentedRealityRight{
+    width: 75%;
+    height: 33vh;
+}
+
+.augmentedRealityRight p{
+    font-family: auditype;
+    font-size: 35px;
+    margin-left: 21px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.augmentedRealityLeft img{
+    width: 100%;
+    height: 100%;
+}
+
+.dealerLocation{
+    width: 100%;
+    height: 89vh;
+    background-color: aqua;
+    margin-top: 141px;
+    display: flex;
+}
+
+.dealerLocationLeft{
+    width: 36%;
+    height: 100%;
+    background-color: #000000;
+}
+.dealerLocationRight{
+    width: 74%;
+    height: 100%;
+}
+.dealerLocationRight img{
+    width: 100%;
+    height: 100%;
+}
+.dealerLocationLeft p{
+    font-family: audiextented;
+    color: white;
+    font-size: 28px;
+    margin-top: 22px;
+    margin-left: 60px;
+}
+
+.ExploreMorebtn{
+    width: 60%;
+    height: 11vh;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: auditype;
+    margin-top: 351px;
+    border: 1px solid white;
+    margin-left: 61px;
+    cursor: pointer;
+
+}
+.ExploreMorebtn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.515);
+
+
+}
+.ExploreMorebtn:hover p{
+    color: rgba(255, 255, 255, 0.616);
+
+
+}
+.ExploreMorebtn p{
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: 0px;
+   
+}
+
+.MyAudiConnect{
+    width: 100%;
+    margin-top: 65px;
+    height: 119vh;
+    background-color: black;
+    display: flex;
+}
+.MyAudiConnectLeft{
+    width: 60%;
+    height: 100%;
+
+}
+.MyAudiConnectRight{
+    width: 40%;
+    height: 100%;
+}
+.MyAudiConnectRight img{
+    width: 100%;
+    height: 100%;
+}
+.MyAudiConnectinnercontainer{
+    width: 100%;
+    height: 41%;
+    margin-top: 387px;
+    font-family: auditype;
+    font-size: 31px;
+    color: white;
+}
+.MyAudiConnectinnercontainer h6{
+    font-family: auditype;
+    font-weight: 100;
+    font-size: 25px;
+    margin-left: 11px
+}
+.connectbtns{
+    margin-top: 31px;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+}
+
+.cntbtn1{
+    margin-left: 11px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+
+.cntbtn2{
+    margin-left: 11px;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+border: 1px solid white;
+}
+.cntbtn1:hover{
+    border: 1px solid rgba(255, 255, 255, 0.515);
+
+
+}
+.cntbtn2:hover{
+    color: rgba(255, 255, 255, 0.616);
+
+}
+
+.cntbtn1, p{
+    font-size: 15px;
+
+}
+.cntbtn2, p{
+    font-size: 15px;
+
+}
+
+.YourAudiIsWaitingMainContainer{
+    width: 100%;
+    height: 151vh;
+    margin-top: 77px;
+}
+.YourAudiIsWaitingContainer{
+    width: 90%;
+    height: 151vh;
+    margin-left: 57px;
+
+    
+}
+
+.audiIsWaitingTitleContainer{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+}
+.audiIsWaitingTitleContainer h6{
+    font-family: audiextented;
+    font-size: 24px;
+    
+   
+}
+.AudiBoxs{
+    width: 100%;
+    height: 56vh;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 29px;
+}
+
+.AudiB1{
+    width: 32%;
+    height: 100%;
+    margin-left: 12px;
+}
+
+.Testdriveimg{
+    width: 100%;
+    height: 70%;
+}
+.Testdriveimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.AudiB1 p{
+    font-size: 15px;
+    font-family: auditype;
+    margin-top: 11px;
+
+
+}
+.AudiB1 h6{
+    font-size: 14px;
+    font-family: auditype;
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+
+.FooterMainContainer{
+    width: 100%;
+    height: 196vh;
+    background-color: black;
+    margin-top: 22px;
+}
+
+.footerContainer1{
+    width:96%;
+    height: 60vh;
+    display: flex;
+    margin-left: 40px;
+}
+.ft1{
+    width: 29%;
+    height: 85%;
+    margin-left: 2px;
+    margin-top: 41px;
+    color: white;
+
+}
+.ft1 h6{
+    font-size: 17px;
+    font-family: auditype;
+    margin-top: 3px;
+    font-weight: 100;
+}
+.ft1 p{
+    font-size: 12px;
+    font-family: auditype;
+    margin-top: 13px;
+    font-weight: 100;
+}
+.backtotop{
+    width: 91px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: auditype;
+    margin-top: 11px;
+    color: white;
+    margin-left: 23px;
+    
+}
+.backtotop p{
+    font-size: 13px;
+}
+.backtotop span{
+    margin-top: 20px;
+    margin-left:6px;
+}
+.footerContainer2{
+    width: 96%;
+    height: 56vh;
+    display: flex;
+    margin-left: 39px;
+    margin-top: 11px;
+
+}
+.ft2{
+    width: 29%;
+    height: 100%;
+    margin-left: 2px;
+    color: white;
+}
+.ft2 h6{
+    font-size: 17px;
+    font-family: auditype;
+    margin-top: 3px;
+    font-weight: 100;
+}
+.ft2 p{
+    font-size: 12px;
+    font-family: auditype;
+    margin-top: 13px;
+    font-weight: 100;
+}
+
+.footerContainer3{
+    width: 96%;
+    height: 21vh;
+    margin-left: 39px;
+    margin-top: 21px;
+}
+.socialmeadias{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    height: 11vh;
+    margin-left: 651px;
+    justify-content: end;
+}
+
+.footerContainer3 hr{
+    margin-top: 3px;
+    width: 94%;
+}
+.socialmeadia1{
+    width: 50px;
+    height: 80%;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.socialmeadia1:hover{
+    background-color: #8671719b;
+
+}
+.socialmeadia1 svg{
+    width: 40%;
+    height: 40%;
+}
+
+.copywrite{
+    width: 96%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    }
+
+.copywrite p {
+    font-size: 14px;
+    margin-left: 12px;
+    color: white;
+    font-family: auditype;
+    font-weight: 100; 
+}
+.copywritep{
+    width: 94%;
+    height: 38vh;
+    color: white;
+}
+.copywritep p{
+font-family: auditype;
+font-size: 12px;
+}
+
+.chatwithbot{
+    width: 31px;
+    height: 31px;
+    background-color: #771f1f;
 }
