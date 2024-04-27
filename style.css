@@ -21,7 +21,7 @@
 
 .mainContainer{
     width: 100%;
-    height: 1195vh;
+    height: auto;
 
 }
 .headerContainer{
@@ -47,7 +47,7 @@
     width: 100%;
     height: 100%;
 }
-.sidebar{
+.sidebar {
     width: 100%;
     height: 100vh;
     display: none;
@@ -55,29 +55,33 @@
     position: fixed;
     z-index: 1;
     flex-wrap: wrap;
-
 }
-.sidebar ul{
+
+.sidebar ul {
     list-style-type: none;
     margin-top: -43px;
-
 }
-.sidebar li{
+
+.sidebar li {
     font-family: auditype;
     font-size: 17px;
-    margin-top: 4px;
+    margin-top: 14px;
     margin-left: 65px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.657);
-
-
-}
-.sidebar li:hover{
-   color: black;
+    position: relative;
+    width: 200vh;
 
 }
-.sidebar span{
-    margin-left: 1110px
+
+.sidebar li:hover {
+    color: black;
+}
+
+.sidebar li span {
+    position: absolute;
+    margin-left: 123px;
+    right: 0; /* Aligning the span to the right side of the li */
 }
 
 
@@ -158,14 +162,14 @@ width: 70%;
   z-index: 0;
 }
 .introContainer{
-    width: 550px;
+    width: 45%;
     height: 310px;
     margin-top: 56px;
     margin-left: 50px;
 }
 .introTitles{
     width: 100%;
-    height: 54%;
+    height: 48%;
     font-family: audiextented;
     color: #ffffff;
     font-size: 21px;
@@ -187,7 +191,7 @@ width: 70%;
 }
 
 .introbtn1{
-    width: 45%;
+    width: 37%;
     height: 10vh;
     background: #ffffff;
     align-items: center;
@@ -198,7 +202,7 @@ width: 70%;
 }
 
 .introbtn2{
-    width: 62%;
+    width: 53%;
     height: 10vh;
     margin-left: 6px;
     align-items: center;
@@ -222,7 +226,7 @@ width: 70%;
 .modelsMainContainer{
     width: 100%;
     height: 31vh;
-    margin-top: 507px;
+    margin-top: 40%;
 
 }
 .modelsTitle{
