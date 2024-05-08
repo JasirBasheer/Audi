@@ -1447,3 +1447,132 @@ border: 1px solid white;
     
           }
           
+
+  @media only screen and (min-width: 100px) and (max-width: 400px) {
+    .headerContainer{
+        width: 100%;
+        height: 13vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .augmentedReality {
+        width: 93%;
+        height: auto;
+        display: flex;
+    }
+
+    .TheHomeOfElectric {
+        width: 89%;
+        height: 46%;
+        background-color: white;
+        margin-left: 21px;
+        font-family: auditype;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .btn1 {
+        width: 35%;
+        height: 100%;
+        background-color: #000000;
+        margin-right: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-left: 21px;
+        margin-top: 11px;
+        font-size: 10px;
+        font-family: auditype;
+        cursor: pointer;
+    }
+    .btn2 {
+        width: 57%;
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 11px;
+        font-size: 11px;
+        font-family: auditype;
+        cursor: pointer;
+    }   
+
+.ExploreMorebtn1 {
+    width: 60%;
+    height: 9vh;
+    color: rgb(35, 13, 13);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: auditype;
+    margin-bottom: 12px;
+    margin-top: 246px;
+    border: 1px solid white;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.MyAudiConnectinnercontainer h6 {
+    font-family: auditype;
+    font-weight: 100;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.audiisWc {
+    margin-top: 225%;
+    width: 100%;
+    height: 202vh;
+}
+.footerContainer2 {
+    width: 96%;
+    height: auto;
+    margin-top: 28%;
+    display: flex;
+}
+.ft2 {
+    width: 29%;
+    height: 100%;
+    margin-right: 27px;
+    color: white;
+    cursor: pointer;
+}
+.FooterMainContainer {
+    width: 100%;
+    height: 262vh;
+    background-color: black;
+    padding-left: 4%;
+}
+.Testdriveimg img {
+    width: 100%;
+    height: 85%;
+}
+.AudiB1 p {
+    font-size: 15px;
+    font-family: auditype;
+    margin-top: -21px;
+}
+.VirtualShowroomContant1 h2 {
+    font-family: audiextented;
+    font-size: 19px;
+}
+.VirtualShowroomContant1 {
+    width: 95%;
+    height: 30%;
+    margin-left: 5px;
+}
+.sidebar li {
+    font-family: auditype;
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 65px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.657);
+    position: relative;
+    width: 26vh;
+}
+}
+
