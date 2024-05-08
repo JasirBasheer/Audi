@@ -639,7 +639,7 @@ font-size: 12px;
 }
 .FooterMainContainer{
     width: 100%;
-    height: 178vh;
+    height: 207vh;
     background-color: black;
     padding-left: 4%;
 }
@@ -1404,7 +1404,7 @@ border: 1px solid white;
     }
 
 
- @media only screen and (min-width: 600px) and (max-width: 770px) {
+ @media only screen and (min-width: 600px) and (max-width: 790px) {
     .audiisWc{
         width: 100%;
         height: 99vh;
@@ -1419,6 +1419,18 @@ border: 1px solid white;
 }   
 
 
+@media only screen and (min-width: 766px) and (max-width: 770px) {
+    .audiisWc {
+        width: 100%;
+        height: 99vh;
+        margin-top: 1%;
+    }
+    .YourAudiIsWaitingMainContainer {
+
+        height: 160vh;
+        margin-top: 77px;
+    }
+  }
 
 
 
